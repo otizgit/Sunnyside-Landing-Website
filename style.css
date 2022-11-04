@@ -184,9 +184,6 @@ nav ul li a {
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .img1 {
@@ -200,7 +197,7 @@ nav ul li a {
 .article-img-sub {
     text-align: center;
     width: 50%;
-    padding-top: 60vh;
+    padding-top: 55vh;
     margin-inline: auto;
 }
 
@@ -427,9 +424,6 @@ footer {
     .img1,
     .img2 {
         height: 80vh;
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
         padding-bottom: 40px;
     }
     .img1 {
