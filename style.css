@@ -355,11 +355,20 @@ footer {
         left: 50%;
         transform: translateX(-50%) scale(.1);
         opacity: 0;
-        width: 90%;
+        width: 85%;
         background-color: white;
         padding-block: 40px;
         border-radius: 20px;
         transition: .5s ease;
+    }
+    .header-right::after {
+        content: '';
+        position: absolute;
+        top: -8%;
+        right: 0;
+        border-right: 0px solid transparent;
+        border-left: 40px solid transparent;
+        border-bottom: 40px solid white;
     }
     .show {
         opacity: 1;
